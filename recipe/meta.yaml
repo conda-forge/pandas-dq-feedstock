@@ -1,5 +1,5 @@
 {% set name = "pandas-dq" %}
-{% set version = "1.28" %}
+{% set version = "1.29" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pandas_dq-{{ version }}.tar.gz
-  sha256: 77353afa56fa1398f07103deaec63093b838a6b5a32da19770b6b88786595ff1
+  sha256: c5ea1ffd3aef56223fa4e3412d0e58d1d5d5d090de2026620689c2149fc11ecf
 
 build:
   noarch: python
